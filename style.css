@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: JosefinSans;
+    src: url(./fonts/JosefinSans-Italic-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: JosefinSans2;
+    src: url(./fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+body {
+ background-image: linear-gradient(rgba(255, 255, 255, 0.395), rgba(255, 255, 255, 0.395)), url(./images/Coffee-espresso-template1.jpg);
+ background-size: cover;  
+ background-position: center; 
+ background-attachment: fixed;
+ font-family: JosefinSans2;
+ color: rgb(75, 38, 20);
+}
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    padding-left: 40px;
+}
+
+.anchor-tags {
+    margin-top: 20px;
+    padding-right: 60px;
+}
+
+.anchor-tags a {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: rgb(75, 38, 20);
+    background-color: #ffffff6b;
+}
+
