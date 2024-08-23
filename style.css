@@ -48,3 +48,52 @@ nav {
     background-color: #ffffff6b;
 }
 
+/* small 1000px */
+@media screen and (max-width: 1000px) {
+    #logo img {
+        width: 70px;
+        height: 70px;
+        padding-left: 30px;
+    }
+    .anchor-tags {
+        padding-right: 50px;
+    }
+    .anchor-tags a {
+        padding: 10px 10px;
+    }
+}
+
+/* tabs */
+@media screen and (max-width: 70px) {
+    #logo img {
+        height: 60px;
+        width: 60px;
+    }
+    .anchor-tags a {
+        font-size: 2.7vh;
+        padding: 5px;
+
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 420px ){
+    #logo img {
+        height: 50px;
+        width: 50px;
+        padding-left: 10px;
+    }
+    .anchor-tags {
+        padding-right: 10px;
+        margin-top: 5px;
+    }
+    .anchor-tags a {
+        padding: 5px 5px;
+        font-size: 1.6vh;
+    }
+}
+
+
+
+
+
